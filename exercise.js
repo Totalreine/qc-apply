@@ -24,4 +24,8 @@ const Compresor = (string) => {
       }
     }
   }
+
+  colapsedValuesString = colapsedValuesArray.toString().replace(/\,/g, "");
+
+  return colapsedValuesString;
 };
