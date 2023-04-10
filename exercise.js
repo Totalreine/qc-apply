@@ -29,3 +29,9 @@ const Compresor = (string) => {
 
   return colapsedValuesString;
 };
+
+console.log(Compresor("aaabccccdd"));
+console.log(Compresor("aaaaaffffffffffc"));
+console.log(Compresor("abcd"));
+console.log(Compresor("ccceee12eccceee"));
+console.log(Compresor("effeac01cb65c"));
