@@ -1,1 +1,5 @@
-const Compresor = (string) => {};
+const Compresor = (string) => {
+  let array = string.split("");
+
+  onlyLettersArray = array.filter((item) => isNaN(item));
+};
